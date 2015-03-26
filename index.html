@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3Data Projects</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <h1 class="title">Spotifly</h1>
+    <div class="spotiflyContainer">
+      <div class="searchContainer">
+        <input placeholder="album" class="searchInputAlbum">
+        <input placeholder="artist" class="searchInputArtist">
+        <input placeholder="track" class="searchInputTrack">
+        <button class="searchButton">Search</button>
+      </div>
+      <div class="playContainer hidden"></div>
+    </div>
+    <!-- [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/lodash/lodash.min.js"></script>
+    <script src="vendor/threejs/build/three.min.js"></script>
+    <script src="vendor/threejs/build/renderers/CanvasRenderer.js"></script>
+    <script src="vendor/threejs/build/renderers/CSS3DRenderer.js"></script>
+    <script src="vendor/threejs/build/renderers/Projector.js"></script>
+    <script src="vendor/threejs/build/controls/OrbitControls.js"></script>
+    <script src="vendor/threejs/build/Detector.js"></script>
+    <script src="vendor/threejs/build/tquery.min.js"></script>
+    <script src="vendor/jquery/dist/attrchange.js"></script>
+    <script src="js/3data.js"></script>
+    <script src="js/spotifly.js"></script>
+  </body>
+</html>
